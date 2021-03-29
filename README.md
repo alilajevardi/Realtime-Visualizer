@@ -27,24 +27,17 @@ The simulation dll can be replace with any other simulation code consiting the f
 
 ```fortran
 Subroutine Simulation(NMD,ITNIN,NALL,SAMPELING,TEMP,ENERGY,POTENTIAL,X,Y,Z,IP)
-
 !DEC$ ATTRIBUTES DLLEXPORT::Simulation
 !DEC$ ATTRIBUTES ALIAS:'Simulation' :: Simulation
-
 IMPLICIT NONE
 INTEGER NMD, NALL, ITNIN, SAMPELING
-
 REAL*8 ENERGY, POTENTIAL, TEMP
-
 INTEGER, DIMENSION(NALL):: IP 
-
 REAL*8, DIMENSION(NALL):: X, Y, Z
 
- 
 
-!Please Insert Code Here 
+!Insert your MD code here 
 
- 
 
 End Subroutine Simulation
 ```
