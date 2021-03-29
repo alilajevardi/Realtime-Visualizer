@@ -25,6 +25,7 @@ The visualization can be set in either of realtime mode or retained mode.
 The simulation code solves the Lennard Jones potentioal for Ar atoms
 The simulation dll can be replace with any other simulation code consiting the following format:
 
+```fortran
 Subroutine Simulation(NMD,ITNIN,NALL,SAMPELING,TEMP,ENERGY,POTENTIAL,X,Y,Z,IP)
 
 !DEC$ ATTRIBUTES DLLEXPORT::Simulation
@@ -46,17 +47,7 @@ REAL*8, DIMENSION(NALL):: X, Y, Z
  
 
 End Subroutine Simulation
-
-
-
-```ruby
-require 'redcarpet'
-markdown = Redcarpet.new("Hello World!")
-puts markdown.to_html
 ```
-
-
-
 
 
 # Vizulizer DLL
