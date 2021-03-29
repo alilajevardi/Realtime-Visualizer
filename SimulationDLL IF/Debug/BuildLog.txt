@@ -1,0 +1,12 @@
+------ Build started: Project: Simulation, Configuration: Debug|Win32 ------
+
+Compiling with Intel Fortran 8.1...
+ifort /nologo /Zi /Od /names:uppercase /module:"Debug/" /object:"Debug/" /traceback /check:bounds /libs:dll /threads /dbglibs /c /dll "C:\Documents and Settings\Alireza\My Documents\Visual Studio Projects\VC++\ARLP\Arlp2\Nano RV with Demo\SimulationDLL IF\Simulation.f90"
+Linking...
+Link /OUT:"Debug/Simulation.dll" /INCREMENTAL:NO /NOLOGO /DEBUG /PDB:"Debug/Simulation.pdb" /SUBSYSTEM:WINDOWS /IMPLIB:"Debug/Simulation.lib" /DLL  Debug/Simulation.obj
+Link: executing 'link'
+   Creating library Debug/Simulation.lib and object Debug/Simulation.exp
+
+
+Simulation build succeeded.
+
