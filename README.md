@@ -15,7 +15,7 @@
 The main program has written in VB.Net that control the simulation and visulization.
 The simulation properties set in this section:
 * Type of MD simulation: NVT, NPT, MVT
-* Interatomic potential: Lennard_jones, Morse, Sutton_Chen, Tersoff_Bernner
+* Interatomic potential: Lennard-Jones, Morse, Sutton-Chen, Tersoff-Bernner
 * Intial values
 
 The visualization can be set in either of realtime mode or retained mode.
