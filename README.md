@@ -4,21 +4,22 @@
 
 ![Alt Text](https://github.com/alilajevardi/Realtime-Visualizer/blob/main/artifacts/C60.gif)
 
+# Main control panel
+The main program has written in VB.Net that control the simulation and visulization.
+The visualization can be set in either of realtime mode or retained mode.
+
+The simulation properties set in this section:
+* Type of MD simulation: NVT, NPT, MVT
+* Interatomic potential: Lennard-Jones, Morse, Sutton-Chen, Tersoff-Bernner
+* Intial values
+
+
 ![User Interface](https://github.com/alilajevardi/Realtime-Visualizer/blob/main/artifacts/main2.PNG)
 
 ![User Interface](https://github.com/alilajevardi/Realtime-Visualizer/blob/main/artifacts/SimulationProperties.jpg)
 
 ![User Interface](https://github.com/alilajevardi/Realtime-Visualizer/blob/main/artifacts/main3.PNG)
 
-
-# Main control panel
-The main program has written in VB.Net that control the simulation and visulization.
-The simulation properties set in this section:
-* Type of MD simulation: NVT, NPT, MVT
-* Interatomic potential: Lennard-Jones, Morse, Sutton-Chen, Tersoff-Bernner
-* Intial values
-
-The visualization can be set in either of realtime mode or retained mode.
 
 
 # Molecular Simulation via FORTRAN
