@@ -23,7 +23,7 @@ The simulation properties set in this section:
 
 
 # Molecular Simulation via FORTRAN
-The simulation code solves the Lennard Jones potentioal for Ar atoms
+The simulation code solves the Lennard-Jones potential for Ar atoms
 The simulation dll can be replace with any other simulation code consiting the following format:
 
 ```fortran
