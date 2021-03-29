@@ -43,5 +43,5 @@ End Subroutine Simulation
 ```
 
 
-# Vizulizer DLL
-The code in VC++ call DirectX 9.0c library to visluize realtime simulation data
+# Visualizer DLL
+The code written in C++ call DirectX 9.0c library to visualize simulation data either in realtime mode or retained mode.
