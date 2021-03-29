@@ -18,7 +18,7 @@ The simulation properties set in this section:
 * Interatomic potential: Lennard_jones, Morse, Sutton_Chen, Tersoff_Bernner
 * Intial values
 
-The vsulising can be run in either of realtime mode and retained mode.
+The visualization can be set in either of realtime mode or retained mode.
 
 
 # Molecular Simulation via FORTRAN
