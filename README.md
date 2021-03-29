@@ -14,9 +14,9 @@
 # Main control panel
 The main program has written in VB.Net that control the simulation and visulization.
 The simulation properties set in this section:
-## Type of MD simulation: NVT, NPT, MVT
-## Interatomic potential: Lennard_jones, Morse, Sutton_Chen, Tersoff_Bernner
-## Intial values
+* Type of MD simulation: NVT, NPT, MVT
+* Interatomic potential: Lennard_jones, Morse, Sutton_Chen, Tersoff_Bernner
+* Intial values
 
 The vsulising can be run in either of realtime mode and retained mode.
 
